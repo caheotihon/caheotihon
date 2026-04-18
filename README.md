@@ -4,7 +4,7 @@
 <p align="left">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&width=435&lines=React+JS+Specialist;Node.js+Backend+Dev;AI+Integration+Expert;Building+T-Edu+Platform" alt="Typing SVG" />
 </p>
-
+ 
 ---
 
 ### 🌟 Featured Project: [T-Edu](https://github.com/caheotihon/T-Edu)
