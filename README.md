@@ -7,7 +7,7 @@
 
 ---
 
-### 🌟 Featured Project: [T-Edu](https://github.com/your-username/T-Edu)
+### 🌟 Featured Project: [T-Edu](https://github.com/caheotihon/T-Edu)
 **T-Edu** là nền tảng học tập và thi trắc nghiệm hỗ trợ bởi AI, cho phép tạo đề từ Prompt hoặc File chỉ trong vài giây.
 
 - **Frontend:** React 18, Vite, Tailwind CSS (UI mượt mà, responsive).
@@ -30,8 +30,8 @@
 
 ### 📊 GitHub Activity
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=tokyonight&count_private=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=tokyonight&langs_count=8" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=[caheotihon]&show_icons=true&theme=tokyonight&count_private=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[caheotihon]&layout=compact&theme=tokyonight&langs_count=8" />
 </p>
 
 <p align="center">
@@ -42,8 +42,8 @@
 
 ### 🤝 Connect with me
 <p align="left">
-<a href="https://linkedin.com/in/[YOUR_LINKEDIN]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="mailto:[YOUR_EMAIL]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Gmail" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/[https://www.linkedin.com/in/t%C3%A0i-tr%E1%BA%A7n-171114404/]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+<a href="mailto:[taitranbbi@gmail.com]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Gmail" height="30" width="40" /></a>
 </p>
 
 ---
