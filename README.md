@@ -1,170 +1,50 @@
-# T-Edu
+# Hi there, I'm [Tên Của Bạn]! 👋 
+### 🚀 Fullstack Developer | React & AI Enthusiast | Creator of T-Edu
 
-T-Edu is an AI-assisted quiz and exam learning platform built for creating, sharing, taking, and reviewing exams in one place.
+<p align="left">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&width=435&lines=React+JS+Specialist;Node.js+Backend+Dev;AI+Integration+Expert;Building+T-Edu+Platform" alt="Typing SVG" />
+</p>
 
-## Overview
+---
 
-This repository contains the full T-Edu system:
+### 🌟 Featured Project: [T-Edu](https://github.com/your-username/T-Edu)
+**T-Edu** là nền tảng học tập và thi trắc nghiệm hỗ trợ bởi AI, cho phép tạo đề từ Prompt hoặc File chỉ trong vài giây.
 
-- `quiz-react`: React + Vite frontend
-- `quiz-backend`: Express + MongoDB backend
-- `docs`: architecture, class, and sequence diagrams
+- **Frontend:** React 18, Vite, Tailwind CSS (UI mượt mà, responsive).
+- **Backend:** Node.js (Express 5), MongoDB, Socket.IO (Real-time notifications).
+- **AI Brain:** Tích hợp **Gemini & Groq** để tự động hóa việc tạo câu hỏi và phân tích kết quả.
+- **Features:** Flashcards, Dashboard quản trị, Theo dõi tiến độ học tập.
 
-The platform supports both learners and creators. Users can discover public exams, take timed attempts, review results, study with flashcards, manage personal workspaces, and generate exams with AI from prompts or uploaded files. Admin users can moderate exams, manage reports, monitor users, and review AI usage.
+---
 
-## Key Features
+### 🛠 My Tech Stack
 
-- User authentication with email/password and Google login
-- Public exam discovery and detail pages
-- Timed exam attempts with history and result review
-- Flashcard mode for reinforcement learning
-- Personal dashboard, favorites, and profile management
-- Exam authoring workspace for manual and AI-assisted creation
-- AI exam generation from prompt, file upload, and analysis tasks
-- Channel and follow flow for creator-centered sharing
-- Admin dashboard for moderation, reports, users, and AI usage
-- Real-time features via Socket.IO
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **Backend** | ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) |
+| **DevOps & Tools** | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens) |
+| **AI Integration** | ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-orange?style=flat-square) |
 
-## Tech Stack
+---
 
-### Frontend
+### 📊 GitHub Activity
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=tokyonight&count_private=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=tokyonight&langs_count=8" />
+</p>
 
-- React 18
-- Vite
-- React Router
-- Tailwind CSS
-- Axios
-- Socket.IO Client
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_USERNAME]&theme=tokyonight" />
+</p>
 
-### Backend
+---
 
-- Node.js
-- Express 5
-- MongoDB + Mongoose
-- JWT authentication
-- Multer for uploads
-- Nodemailer
-- Socket.IO
-- Gemini and Groq integrations
+### 🤝 Connect with me
+<p align="left">
+<a href="https://linkedin.com/in/[YOUR_LINKEDIN]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+<a href="mailto:[YOUR_EMAIL]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Gmail" height="30" width="40" /></a>
+</p>
 
-## Project Structure
-
-```text
-T-Edu/
-|-- docs/
-|   |-- architecture-system.puml
-|   |-- architecture.puml
-|   |-- class-diagram.puml
-|   `-- sequence-usecases.puml
-|-- quiz-backend/
-|   |-- src/
-|   `-- package.json
-|-- quiz-react/
-|   |-- src/
-|   `-- package.json
-|-- docker-compose.yml
-`-- README.md
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- npm
-- MongoDB
-
-### Run locally
-
-Frontend:
-
-```bash
-cd quiz-react
-npm install
-npm run dev
-```
-
-Backend:
-
-```bash
-cd quiz-backend
-npm install
-npm run dev
-```
-
-Default local endpoints:
-
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:5000`
-- API base: `http://localhost:5000/api/v1`
-
-### Run with Docker
-
-```bash
-docker compose up --build
-```
-
-## Environment Variables
-
-Create local environment files before running the app.
-
-Frontend (`quiz-react/.env`) should define values such as:
-
-```env
-VITE_API_URL=http://localhost:5000/api/v1
-VITE_GOOGLE_CLIENT_ID=your_google_client_id
-```
-
-Backend (`quiz-backend/.env`) should define values such as:
-
-```env
-NODE_ENV=development
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/t-edu-db
-JWT_SECRET=your_jwt_secret
-GEMINI_API_KEY=your_gemini_api_key
-GROQ_API_KEY=your_groq_api_key
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=465
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_app_password
-```
-
-Important: do not commit real secrets to the repository.
-
-## Documentation
-
-Project diagrams and analysis files are available in the `docs` directory:
-
-- `docs/architecture-system.puml`
-- `docs/architecture.puml`
-- `docs/class-diagram.puml`
-- `docs/sequence-usecases.puml`
-- `docs/ChucNangHeThong.md`
-
-## API Areas
-
-The backend exposes grouped routes under `/api/v1`, including:
-
-- `/auth`
-- `/exams`
-- `/attempts`
-- `/dashboard`
-- `/ai`
-- `/users`
-- `/channels`
-- `/subscriptions`
-- `/notifications`
-- `/admin`
-- `/reports`
-
-## Development Notes
-
-- Frontend uses path alias `@` mapped to `quiz-react/src`
-- Vite dev server runs on port `5173`
-- Express server runs on port `5000` by default
-- Static uploads are served from `/uploads`
-
-## Status
-
-T-Edu is structured as a full-stack learning platform with student, creator, and admin flows already present in the codebase. The repository is a solid base for continued feature development, polishing, deployment, and documentation improvements.
+---
+*“Coding is not just about syntax, it's about solving problems and creating experiences.”*
