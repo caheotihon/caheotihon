@@ -1,4 +1,4 @@
-# Hi there, I'm Tran Van Tai! 👋 
+# Hi there, I'm Tran Van Tai!
 ### 🚀 Fullstack Developer
 
 <p align="left">
